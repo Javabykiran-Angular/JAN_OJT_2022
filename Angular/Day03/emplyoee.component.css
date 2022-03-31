@@ -1,0 +1,11 @@
+.myclass{
+  color: blue;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+}
+
+#mydiv{
+  background-color: red;
+  color: white;
+  padding: 8px;
+}
