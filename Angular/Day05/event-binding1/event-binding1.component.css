@@ -1,0 +1,10 @@
+
+img{
+  width: 250px;
+  height: 250px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 2px solid blue;
+  padding: 5px;
+  margin-left: 25px;
+}
