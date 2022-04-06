@@ -1,0 +1,18 @@
+<p>event-binding3 works!</p>
+
+<button (click)="result=2+2">Addition</button>
+<br> <h2>Result :: {{result}} </h2>
+<!-- keyup event -->
+<input type="text" (keyup)="onKeyUp()" placeholder="Key up Event"><br><br>
+<input type="text" (keydown)="onKeyDown()" placeholder="Key down Event"> <br><br>
+
+<!-- <input type="text" placeholder="Enter the Text " (keydown)="onInput()" > -->
+
+
+<!-- ngModel 
+  it is attribute directive
+  [(ngModel)]="name"
+-->
+
+<input type="text" [(ngModel)]="name" placeholder="Enter the name"> <br><br>
+{{name}}
