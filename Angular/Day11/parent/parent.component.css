@@ -1,0 +1,32 @@
+/* css */
+
+.mycard{
+  max-width: 400px;
+  border: 2px solid #0c63ce;
+  border-radius: 10px;
+  padding: 10px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 5px;
+  box-shadow:4px green;
+  z-index: -1;
+}
+
+.mycardheader{
+  font-size: 16px;
+
+}
+.mytextFont{
+  font-size: 22px;
+  color: green;
+}
+
+.priceHighlight{
+  background-color: blue;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+.myquanty{
+  margin-top: 22px;
+}

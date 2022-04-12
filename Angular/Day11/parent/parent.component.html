@@ -1,0 +1,40 @@
+<p>parent works!</p>
+
+<h2>Child Data :: {{ChildStrData}} </h2>
+
+<div class="mycard" *ngFor="let item of arrobj">
+    <div class="mycardheader">
+
+    
+  <label for="">Product Name :: &nbsp;&nbsp;</label>
+  <span class="mytextFont">
+   {{item.productName}}
+  </span>
+</div> <br>
+<div>
+    <Label>Price ::&nbsp;&nbsp; </Label>
+    <span class="priceHighlight"> {{item.price}} </span> <br> <br>
+
+      <label class="myquanty" for="">Quantity:: &nbsp;&nbsp;</label>
+      <span > {{item.quantity}} </span>
+</div> 
+
+</div>
+
+<hr>
+<!-- <app-child1 [ParentStrData]="strData"
+
+[ParentjsonObj]="jsonobj"
+
+></app-child1> -->
+
+<!-- <input #inputname type="text" placeholder="Enter the name"> <br><br>
+<button (click)="onSend(inputname.value)">Send</button>
+
+<hr>
+<app-child1 [ParentName]="myname"></app-child1> -->
+
+<app-child2 (ChildStrEvent)="ChildStrData=$event"
+
+  (ChildArrObjEvent)="onArrObjEvent($event)"
+></app-child2>
