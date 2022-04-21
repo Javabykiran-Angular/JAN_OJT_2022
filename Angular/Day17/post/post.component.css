@@ -1,0 +1,14 @@
+/* css */
+
+button{
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid tomato;
+  border-radius: 8px;
+}
+button:hover{
+
+    background: green;
+    color: white;
+
+}
