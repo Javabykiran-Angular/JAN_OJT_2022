@@ -1,0 +1,11 @@
+a{
+  margin: 8px;
+  padding: 5px;
+}
+
+button{
+  margin: 8px;
+  padding: 5px;
+  border: 1px solid red;
+  border-radius: 8px;
+}
